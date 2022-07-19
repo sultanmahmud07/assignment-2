@@ -25,9 +25,21 @@ a{
 /*=================================
       banner section css hear 
 ================================== */
+
 section#banner_sec {
   margin-top: 40px;
 }
+
+.banner_main {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: black; */
+  /* color: white; */
+  padding: 4px 60px 0px 79px;
+  background: #161616;
+  border-radius: 30px;
+}
+
 
 .banner_main {
   display: flex;
@@ -73,21 +85,22 @@ button.btn {
   background: #DD0000;
   border-radius: 5px;
   padding: 11px 32px;
+  transition: 0.5s;
+}
+button.btn a {
+  color: white;
 }
 
-section#banner_sec {
-  margin-top: 40px;
+button.btn a i {
+  font-size: 19px;
+  margin-left: 4px;
 }
 
-.banner_main {
-  display: flex;
-  justify-content: space-between;
-  /* background-color: black; */
-  /* color: white; */
-  padding: 4px 60px 0px 79px;
-  background: #161616;
-  border-radius: 30px;
+button.btn:hover {
+  background-color: #ff47c78f;
+  border: 2px solid white;
 }
+
 
 .banner_info {
   width: 45%;
@@ -151,6 +164,8 @@ section#update_sec {
   justify-content: space-between;
   margin-right: 29px;
 }
+
+
 button.box_btn {
   width: 100%;
   background-color: #FFFFFF;
@@ -178,6 +193,9 @@ button.box_btn a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2em;
+}
+.singel_box {
+  cursor: pointer;
 }
 .box_banner_image img {
   width: 100%;
@@ -312,3 +330,63 @@ footer optional social icon css
 /* =================================
 footer optional social icon css 
 ==================================== */
+/* =================================
+     medi Quary css hear 
+==================================== */
+/* view for mobile  */
+@media screen and (max-width:576px) {
+
+  .banner_main{
+    /* background-color: tomato; */
+    flex-direction: column;
+   
+    align-items: center;
+  }
+  .banner_info{
+    width: 100%;
+    text-align: center;
+  }
+  .banner_info h1{
+    width: 95%;
+    font-size: 22px;
+    text-align: center;
+    line-height: 35px;
+  }
+  .banner_info p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1em;
+  }
+  .banner_img{
+    width: 100%;
+  }
+  .main_box_wrapper{
+    flex-direction: column;
+    align-items: center;
+  }
+  .left_box{
+    /* flex-direction: row; */
+    width: 75%;
+    margin: 0;
+    margin-bottom: 22px;
+  }
+  .button.box_btn{
+    /* padding: 0px; */
+  }
+  .main_boxs{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .box_disc{
+    width: 268px;
+  }
+  .social_link ul{width: 155px;}
+  .f_nab ul{
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+}
+
+/*----------------------
+   view for tab  
+   -------------------*/

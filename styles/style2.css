@@ -1,0 +1,40 @@
+.flag {
+  width: 97px;
+  height: 67px;
+}
+
+.flag img {
+  width: 100%;
+}
+
+.box_banner_image {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.singel_box {
+  border: 1px solid #8080805e;
+  padding: 29px;
+  width: 220px;
+  border-radius: 10px;
+}
+
+.box_banner_image span {
+  width: 35px;
+  height: 58px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.box_banner_image {
+  width: 224px;
+  height: 85px;
+}
+
+.box_disc {
+  border: none;
+}
+
+.box_disc p {
+  text-align: center;
+}
