@@ -14,7 +14,8 @@ body{
 }
 a{
   text-decoration: none;
-  color: black;
+  /* color: black; */
+  /* color: #B9B9B9; */
 }
 .container{
   width: 80%;
@@ -131,7 +132,7 @@ button.btn {
 ================================== */
 
 section#update_sec {
-  margin-top: 101px;
+  margin: 110px 0;
 }
 
 .main_box_wrapper {
@@ -179,5 +180,135 @@ button.box_btn a {
     gap: 2em;
 }
 .box_banner_image img {
-  width: 94%;
+  width: 100%;
 }
+.box_disc {
+  border: 1px solid #80808052;
+  border-top: none;
+  padding: 12px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.box_banner_image {
+  width: 288px;
+  height: 161px;
+}
+.box_disc {
+  border: 1px solid #80808052;
+  border-top: none;
+  padding: 12px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.box_banner_image {
+  width: 292px;
+  height: 161px;
+}
+
+button.s_box_btn {
+  padding: 2px 16px;
+  background: white;
+  border-radius: 5px;
+  margin: 8px 0;
+  border: 1px solid gray;
+}
+
+.box_disc h3 {
+  color: #161616;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.some_icon_contain {
+  display: flex;
+  justify-content: space-around;
+}
+
+.some_icon_contain i {
+  margin-right: 9px;
+}
+/*=================================
+      footer section css hear 
+================================== */
+
+footer#footer_sec {
+  background: #161616;
+}
+.top_f {
+  /* margin-top: 74px; */
+  padding: 34px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.top_f h3 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.f_nab ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f_nab ul li a {
+  /* color: white; */
+  color: #B9B9B9;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.f_nab {
+  width: 53vw;
+  margin: 2em 0;
+}
+
+.bottom_f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* =================================
+footer optional social icon css 
+==================================== */
+.social_link {
+  /* margin: 22px 0; */
+  /* display: none; */
+}
+
+.social_link ul {
+  list-style: none;
+  display: flex;
+  width: 250px;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 29px;
+}
+
+.social_link ul li a {
+  color: wheat;
+}
+
+.social_link ul li a i {
+  color: #ffffff;
+  font-size: 23px;
+  background-color: #DD0000;
+  border-radius: 25px;
+  padding: 9px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+.social_link ul li a i:hover{
+  background-color: #ffffff;
+  color: #DD0000;
+}
+/* =================================
+footer optional social icon css 
+==================================== */
