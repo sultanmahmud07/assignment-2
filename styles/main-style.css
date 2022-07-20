@@ -247,6 +247,7 @@ button.s_box_btn {
 
 .some_icon_contain i {
   margin-right: 9px;
+  color: gray;
 }
 
 .up_b_sec  {
@@ -258,6 +259,9 @@ button.s_box_btn {
 
 button#p_btn, button.btn {
 
+}
+div#optional_box {
+  display: block;
 }
 /*=================================
       footer section css hear 
@@ -491,5 +495,8 @@ footer optional social icon css
         margin-bottom: 20px;
         line-height: 100%;
     }
+    div#optional_box {
+      display: none;
+  }
     
    }
