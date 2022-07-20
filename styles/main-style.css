@@ -241,6 +241,14 @@ button.s_box_btn a:hover{
   color: #ffffff;
   /* border: 1px solid #ffffff; */
 }
+button.s_box_btn a {
+  color: gray;
+}
+
+button.s_box_btn:hover {
+  background-color: black;
+  color: white;
+}
 
 button.s_box_btn:hover {
   background-color: black;
