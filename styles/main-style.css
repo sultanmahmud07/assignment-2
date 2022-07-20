@@ -268,7 +268,7 @@ button.s_box_btn:hover {
 
 .some_icon_contain i {
   margin-right: 9px;
-  color: gray;
+  color: #25d725;
 }
 
 .up_b_sec  {
@@ -315,6 +315,10 @@ footer#footer_sec {
   color: #B9B9B9;
   font-weight: 500;
   font-size: 1em;
+  transition: 0.3s;
+}
+.f_nab ul li a:hover{
+  color: #DD0000;
 }
 
 .f_nab {
@@ -485,6 +489,9 @@ footer optional social icon css
         margin-bottom: 30px;
         padding: 0px 0px;
     }
+    .f_nab ul li a{
+      font-size: 9px;
+    }
 
     button.box_btn {
         width: 29%;
@@ -529,5 +536,21 @@ footer optional social icon css
     div#optional_box {
       display: none;
   }
+    
+   }
+
+
+   /* ipad min  */
+   @media screen and (min-width:768px) and (max-width:1200px) {
+    .banner_main{
+      
+    }
+    .banner_info p{
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    button.btn{
+      padding: 4px 20px;
+    }
     
    }
