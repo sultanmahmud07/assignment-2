@@ -62,7 +62,7 @@ section#banner_sec {
 
 .banner_img img {
   width: 100%;
-  margin-top: 15px;
+  margin-bottom: -6px;
 }
 
 .banner_info h1 {
@@ -232,6 +232,19 @@ button.s_box_btn {
   border-radius: 5px;
   margin: 8px 0;
   border: 1px solid gray;
+  transition: 0.5s;
+}
+button.s_box_btn a {
+  color: gray;
+}
+button.s_box_btn a:hover{
+  color: #ffffff;
+  /* border: 1px solid #ffffff; */
+}
+
+button.s_box_btn:hover {
+  background-color: black;
+  color: white;
 }
 
 .box_disc h3 {
@@ -407,6 +420,16 @@ footer optional social icon css
     align-items: center;
     row-gap: 20px;
   }
+  
+  .f_nab ul li a:hover{
+    
+    color:#DD0000;
+   
+  }
+  div#optional_box {
+    display: none;
+}
+  
 }
 
 /*----------------------
