@@ -81,13 +81,14 @@ section#banner_sec {
   margin-bottom: 24px;
 }
 
-button.btn {
+button.btn, button#p_btn {
   background: #DD0000;
   border-radius: 5px;
   padding: 11px 32px;
   transition: 0.5s;
+  cursor: pointer;
 }
-button.btn a {
+button.btn a, button#p_btn a {
   color: white;
 }
 
@@ -247,6 +248,17 @@ button.s_box_btn {
 .some_icon_contain i {
   margin-right: 9px;
 }
+
+.up_b_sec  {
+  width: 100vw;
+  text-align: center;
+  margin-top: 34px;
+  display: none;
+}
+
+button#p_btn, button.btn {
+
+}
 /*=================================
       footer section css hear 
 ================================== */
@@ -290,7 +302,13 @@ footer#footer_sec {
   flex-direction: column;
   align-items: center;
 }
-
+button#p_btn {
+  /* display: none; */
+  border: none;
+}
+button#p_btn:hover{
+  background-color: blueviolet;
+}
 /* =================================
 footer optional social icon css 
 ==================================== */
@@ -390,3 +408,88 @@ footer optional social icon css
 /*----------------------
    view for tab  
    -------------------*/
+      @media screen and (min-width:577px) and (max-width:992px) {
+        /* .banner_main{
+          background-color: tomato;
+        } */
+
+
+    .banner_info h1 {
+        font-size: 28px;
+        line-height: 107%;
+    }
+
+    .banner_img {
+        width: 50%;
+    }
+
+    .banner_info p {
+        margin-top: 23px;
+        font-size: 15px;
+        margin-bottom: 20px;
+        line-height: 100%;
+    }
+        button#p_btn a {}
+
+    button#p_btn {}
+
+    .main_box_wrapper {
+        flex-direction: column;
+    }
+
+    .main_boxs {
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 0px;
+    }
+
+    .left_box {
+        flex-direction: row;
+        margin: 0px;
+        width: 96%;
+        height: 90px;
+        margin-bottom: 30px;
+        padding: 0px 0px;
+    }
+
+    button.box_btn {
+        width: 29%;
+    }
+    .box_disc {
+      width: 85%;
+      margin-top: 26px;
+      padding-top: 28px;
+    }
+
+    .box_banner_image {
+      width: 92%;
+    }
+
+    .box_banner_image img {
+      /* width: 104%; */
+    }
+
+    .up_b_sec {
+      width: 100%;
+    }
+    .up_b_sec{
+      display: block;
+    }
+    
+
+    .banner_info h1 {
+        font-size: 28px;
+        line-height: 107%;
+    }
+    
+    .banner_img {
+        width: 50%;
+    }
+    
+    .banner_info p {
+        margin-top: 23px;
+        font-size: 15px;
+        margin-bottom: 20px;
+        line-height: 100%;
+    }
+    
+   }
